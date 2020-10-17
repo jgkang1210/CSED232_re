@@ -140,6 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="assn2.cpp" />
+    <ClCompile Include="CPokemon.cpp" />
+    <ClCompile Include="CRival.cpp" />
+    <ClCompile Include="CTrainer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPokemon.h" />
+    <ClInclude Include="CRival.h" />
+    <ClInclude Include="CTrainer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
