@@ -2,11 +2,73 @@
 #include "CTrainer.h"
 
 
-CTrainer::CTrainer()
+
+CTrainer::CTrainer(const CPokemon pokemon_1_, const CPokemon pokemon_2_, const CPokemon pokemon_3_, const CPokemon in_battle_)
 {
+	pokemon_1 = pokemon_1_;
+	pokemon_2 = pokemon_2_;
+	pokemon_3 = pokemon_3_;
+	in_battle = in_battle_;
 }
 
 
 CTrainer::~CTrainer()
 {
+	
 }
+
+CPokemon CTrainer::get_pokemon_1()
+{
+	return pokemon_1;
+}
+
+void CTrainer::set_pokemon_1(CPokemon pokemon_1_)
+{
+	pokemon_1 = pokemon_1_;
+}
+
+CPokemon CTrainer::get_pokemon_2()
+{
+	return pokemon_2;
+}
+
+void CTrainer::set_pokemon_2(CPokemon pokemon_2_)
+{
+	pokemon_2 = pokemon_2_;
+}
+
+CPokemon CTrainer::get_pokemon_3()
+{
+	return pokemon_3;
+}
+
+void CTrainer::set_pokemon_3(CPokemon pokemon_3_)
+{
+	pokemon_3 = pokemon_3_;
+}
+
+CPokemon CTrainer::get_in_battle()
+{
+	return in_battle;
+}
+
+void CTrainer::set_in_battle(CPokemon in_battle_)
+{
+	in_battle = in_battle_;
+}
+
+void CTrainer::battle()
+{
+
+}
+
+void CTrainer::change()
+{
+
+}
+
+void CTrainer::give_up()
+{
+
+}
+

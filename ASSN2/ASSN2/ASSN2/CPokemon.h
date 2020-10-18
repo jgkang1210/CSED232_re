@@ -1,19 +1,27 @@
 #pragma once
+
 class CPokemon
 {
 private:
+	int id;
 	int main_type;
 	int sub_type;
 	int hp;
 	int attack;
 	int defense;
 	int speed;
-	int skills;
-	int knock_down;
+	int ability;
+	int skill_1;
+	int skill_2;
+	bool knock_down;
 
 public:
-	CPokemon();
+	CPokemon(int id_ = 0, int main_type_ = 0, int sub_type_ = 0, int hp_ = 0, int attack_ = 0, int defense_ = 0, int speed_ = 0, int ability_ = 0, int skill_1_ = 0, int skill_2_ = 0, bool knock_down_ = 0);
+	CPokemon(const CPokemon& ref);
 	~CPokemon();
+	void print_pokemon_status();
+	int get_id();
+	void set_id(int id_);
 	int get_main_type();
 	void set_main_type(int type_);
 	int get_sub_type();
@@ -26,9 +34,12 @@ public:
 	void set_defens(int defense_);
 	int get_speed();
 	void set_speed(int speed_);
-	int get_skills();
-	void set_skills(int skills_);
-	int get_knock_down();
+	int get_ability();
+	void set_abiltiy(int ability_);
+	int get_skill_1();
+	void set_skill_1(int skill_1_);
+	int get_skill_2();
+	void set_skill_2(int skill_2_);
+	bool get_knock_down();
 	void set_knock_dow(int knock_down_);
 };
-

@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="assn2.cpp" />
+    <ClCompile Include="pokemon.cpp" />
     <ClCompile Include="CPokemon.cpp" />
     <ClCompile Include="CRival.cpp" />
     <ClCompile Include="CTrainer.cpp" />
