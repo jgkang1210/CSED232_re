@@ -157,7 +157,7 @@ bool CPokemon::get_knock_down()
 	return knock_down;
 }
 
-void CPokemon::set_knock_dow(int knock_down_)
+void CPokemon::set_knock_down(bool knock_down_)
 {
 	knock_down = knock_down_;
 }

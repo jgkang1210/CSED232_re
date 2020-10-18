@@ -41,5 +41,5 @@ public:
 	int get_skill_2();
 	void set_skill_2(int skill_2_);
 	bool get_knock_down();
-	void set_knock_dow(int knock_down_);
+	void set_knock_down(bool knock_down_);
 };
