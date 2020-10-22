@@ -21,7 +21,15 @@ public:
 	void set_pokemon_3(CPokemon pokemon_3_);
 	CPokemon& get_in_battle();
 	void set_in_battle(CPokemon in_battle_);
-	void battle();
-	void change();
+
+	// check if the pokemon can battle
+	// return 1 if knock_down is 0
+	// return 0 if knock_down is 1
+	int battle();
+	// check if it is changable
+	// input knock_down of the pokemon
+	// return 0 if input is 0
+	// return 1 if input is 1
+	int change(bool knock_down_);
 	void give_up();
 };

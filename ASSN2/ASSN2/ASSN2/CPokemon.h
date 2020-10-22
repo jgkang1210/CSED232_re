@@ -16,7 +16,7 @@ private:
 	bool knock_down;
 
 public:
-	CPokemon(int id_ = 0, int main_type_ = 0, int sub_type_ = 0, int hp_ = 0, int attack_ = 0, int defense_ = 0, int speed_ = 0, int ability_ = 0, int skill_1_ = 0, int skill_2_ = 0, bool knock_down_ = 0);
+	CPokemon(const int id_ = 0, const int main_type_ = 0, const int sub_type_ = 0, const int hp_ = 0, const int attack_ = 0, const int defense_ = 0, const int speed_ = 0, const int ability_ = 0, const int skill_1_ = 0, const int skill_2_ = 0, const bool knock_down_ = 0);
 	CPokemon(const CPokemon& ref);
 	~CPokemon();
 	void print_pokemon_status();

@@ -61,3 +61,8 @@ void CRival::set_in_battle(CPokemon in_battle_)
 {
 	in_battle = in_battle_;
 }
+
+int CRival::battle()
+{
+	return !in_battle.get_knock_down();
+}

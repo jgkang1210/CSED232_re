@@ -3,7 +3,7 @@
 #include "CPokemon.h"
 
 
-CPokemon::CPokemon(int id_, int main_type_, int sub_type_, int hp_, int attack_, int defense_, int speed_, int ability_, int skill_1_, int skill_2_, bool knock_down_)
+CPokemon::CPokemon(const int id_, const int main_type_, const int sub_type_, const int hp_, const int attack_, const int defense_, const int speed_, const int ability_, const int skill_1_, const int skill_2_, const bool knock_down_)
 {
 	id = id_;
 	main_type = main_type_;
@@ -18,6 +18,7 @@ CPokemon::CPokemon(int id_, int main_type_, int sub_type_, int hp_, int attack_,
 	knock_down = knock_down_;
 }
 
+
 CPokemon::CPokemon(const CPokemon& ref) {
 	id = ref.id;
 	main_type = ref.main_type;
@@ -31,6 +32,8 @@ CPokemon::CPokemon(const CPokemon& ref) {
 	skill_2 = ref.skill_2;
 	knock_down = ref.knock_down;
 }
+
+
 
 CPokemon::~CPokemon()
 {
