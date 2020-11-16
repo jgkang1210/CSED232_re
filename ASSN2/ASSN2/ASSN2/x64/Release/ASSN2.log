@@ -1,0 +1,12 @@
+﻿  pokemon.cpp
+  CPokemon.cpp
+  CRival.cpp
+  CTrainer.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN2\ASSN2\ASSN2\pokemon.cpp(1660): warning C4715: 'type_checker': not all control paths return a value
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN2\ASSN2\ASSN2\pokemon.cpp(587): warning C4715: 'id_to_hp': not all control paths return a value
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN2\ASSN2\ASSN2\pokemon.cpp(638): warning C4715: 'id_to_accuracy': not all control paths return a value
+  All 80 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ASSN2.vcxproj -> C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN2\ASSN2\x64\Release\ASSN2.exe
