@@ -160,6 +160,10 @@
     <ClCompile Include="Rook.cpp" />
     <ClCompile Include="Square.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="assign3_log1.txt" />
+    <Text Include="assign3_log2.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,0 +1,9 @@
+﻿  Bishop.cpp
+  King.cpp
+  Pawn.cpp
+  Piece.cpp
+  Rook.cpp
+  assn3.cpp
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN3\ASSN3\assn3.cpp(14,8): warning C4101: 'GameBoard': unreferenced local variable
+  Generating Code...
+  ASSN3.vcxproj -> C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN3\Debug\ASSN3.exe

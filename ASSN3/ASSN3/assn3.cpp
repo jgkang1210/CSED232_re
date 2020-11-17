@@ -10,5 +10,8 @@
 #include "Square.h"
 
 int main() {
+	std::cout << "hello world" << std::endl;
+	Board GameBoard;
+
 
 }
