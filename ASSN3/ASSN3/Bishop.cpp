@@ -1,14 +1,11 @@
 #include "Bishop.h"
-#include "Piece.h"
-#include "EnumStruct.h"
-#include <iostream>
 
-Bishop::Bishop(Player player_, Position pos_)
+Bishop::Bishop(const Player& player_, const Position& pos_) : Piece(player_, pos_)
 {
 
 }
 
-bool Bishop::CanMoveTo(Direction dir) const
+bool Bishop::CanMoveTo(const Direction& dir) const
 {
 	return false;
 }

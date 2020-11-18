@@ -1,26 +1,29 @@
 #ifndef PIECEARRAY
 #define PIECEARRAY
 
+#include "EnumStruct.h"
+#include "Piece.h"
+
 class PieceArray
 {
 private:
-	int length;
+	int length = 4;
 	int maxLength;
 	Piece** arr;
 public:
 	// constructor
-	PieceArray(int maxLength_);
+	PieceArray(const int& maxLength_);
 
 	// copy constructor
-	PieceArray(PieceArray& piecearray_);
+	PieceArray(const PieceArray& piecearray_);
 
 	// destructor
 	~PieceArray();
 
 	int GetLength() const;
-	Piece* GetPieceAt(int index) const;
+	Piece* GetPieceAt(const int& index) const;
 	void PushPiece(Piece* piece);
-	Piece* PopPieceAt(int index);
+	Piece* PopPieceAt(const int& index);
 };
 
 #endif

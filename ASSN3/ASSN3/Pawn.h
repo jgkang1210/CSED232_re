@@ -1,16 +1,20 @@
 #ifndef PAWN
 #define PAWN
 
+#include <iostream>
+#include "EnumStruct.h"
+#include "Piece.h"
+
 class Pawn :
     public Piece
 {
 private:
     bool isPromoted = false;
 public:
-    Pawn(Player player_, Position pos_);
-    void Init(Player player_, Position pos_);
-    void SetPosition(Position pos_);
-    bool CanMoveTo(Direction dir) const;
+    Pawn(const Player& player_, const Position& pos_);
+    void Init(const Player& player_, const Position& pos_);
+    void SetPosition(const Position& pos_);
+    bool CanMoveTo(const Direction& dir) const;
     void PrintLabel(std::ostream& os) const;
 };
 

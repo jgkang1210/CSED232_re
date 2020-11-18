@@ -1,14 +1,16 @@
 #include "King.h"
-#include "Piece.h"
-#include "EnumStruct.h"
-#include <iostream>
 
-King::King(Player player, Position pos_)
+King::King(const Player& player_, const Position& pos_) : Piece(player_, pos_)
 {
 
 }
 
-bool King::CanMoveTo(Direction dir) const
+King::King(const King& king) : Piece(king.GetPlayer(), king.GetPosition())
+{
+
+}
+
+bool King::CanMoveTo(const Direction& dir) const
 {
 	return false;
 }

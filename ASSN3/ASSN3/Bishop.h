@@ -1,12 +1,16 @@
 #ifndef BISHOP
 #define BISHOP
 
+#include <iostream>
+#include "EnumStruct.h"
+#include "Piece.h"
+
 class Bishop :
     public Piece
 {
 public:
-    Bishop(Player player_, Position pos_);
-    bool CanMoveTo(Direction dir) const;
+    Bishop(const Player& player_, const Position& pos_);
+    bool CanMoveTo(const Direction& dir) const;
     void PrintLabel(std::ostream& os) const;
 };
 

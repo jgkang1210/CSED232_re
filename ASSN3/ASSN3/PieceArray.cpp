@@ -1,18 +1,20 @@
 #include "PieceArray.h"
-#include "Piece.h"
 
-PieceArray::PieceArray(int maxLength_)
+PieceArray::PieceArray(const int& maxLength_) : length(4), arr(nullptr)
 {
-	
+	maxLength = maxLength_;
 }
 
-PieceArray::PieceArray(PieceArray& piecearray_)
+PieceArray::PieceArray(const PieceArray& piecearray_)
 {
-
+	length = piecearray_.length;
+	maxLength = piecearray_.maxLength;
+	arr = piecearray_.arr;
 }
 
 PieceArray::~PieceArray()
 {
+
 }
 
 int PieceArray::GetLength() const
@@ -20,16 +22,17 @@ int PieceArray::GetLength() const
 	return 0;
 }
 
-Piece* PieceArray::GetPieceAt(int index) const
+Piece* PieceArray::GetPieceAt(const int& index) const
 {
 	return nullptr;
 }
 
 void PieceArray::PushPiece(Piece* piece)
 {
+
 }
 
-Piece* PieceArray::PopPieceAt(int index)
+Piece* PieceArray::PopPieceAt(const int& index)
 {
 	return nullptr;
 }

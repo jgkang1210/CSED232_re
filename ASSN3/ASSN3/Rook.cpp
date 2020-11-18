@@ -1,14 +1,11 @@
 #include "Rook.h"
-#include "Piece.h"
-#include "EnumStruct.h"
-#include <iostream>
 
-Rook::Rook(Player player_, Position pos_)
+Rook::Rook(const Player& player_, const Position& pos_) : Piece(player_, pos_)
 {
 
 }
 
-bool Rook::CanMoveTo(Direction dir) const
+bool Rook::CanMoveTo(const Direction& dir) const
 {
 	return false;
 }

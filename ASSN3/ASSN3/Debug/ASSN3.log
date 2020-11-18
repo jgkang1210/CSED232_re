@@ -1,9 +1,6 @@
-﻿  Bishop.cpp
-  King.cpp
-  Pawn.cpp
-  Piece.cpp
-  Rook.cpp
-  assn3.cpp
-C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN3\ASSN3\assn3.cpp(14,8): warning C4101: 'GameBoard': unreferenced local variable
-  Generating Code...
-  ASSN3.vcxproj -> C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN3\Debug\ASSN3.exe
+﻿  assn3.cpp
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\ASSN3\ASSN3\assn3.cpp(26,37): warning C4566: character represented by universal-character-name '\u314E' cannot be represented in the current code page (1252)
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\ASSN3\ASSN3\assn3.cpp(26,37): warning C4566: character represented by universal-character-name '\u3147' cannot be represented in the current code page (1252)
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\ASSN3\ASSN3\assn3.cpp(30,37): warning C4566: character represented by universal-character-name '\u314E' cannot be represented in the current code page (1252)
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\ASSN3\ASSN3\assn3.cpp(30,37): warning C4566: character represented by universal-character-name '\u3147' cannot be represented in the current code page (1252)
+  ASSN3.vcxproj -> C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\ASSN3\Debug\ASSN3.exe

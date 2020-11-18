@@ -1,22 +1,27 @@
 #ifndef PIECE
 #define PIECE
 
+#include <iostream>
+#include "EnumStruct.h"
+
 class Piece
 {
 private:
 	Player player;
 	Position pos;
 public:
-	Piece();
-	Piece(Player player_, Position pos_);
+	Piece(const Player& player_, const Position& pos_);
 	Player GetPlayer() const;
-	void SetPlayer(Player player_);
+	void SetPlayer(const Player& player_);
 	Position GetPosition() const;
-	virtual void SetPosition(Position pos_);
+	virtual void SetPosition(const Position& pos_);
 
 	// Pure virtual function
-	virtual bool CanMoveTo(Direction dir) const = 0;
+	virtual bool CanMoveTo(const Direction& dir) const = 0;
 	virtual void PrintLabel(std::ostream& os) const = 0;
+
+	// friend function
+	friend std::ostream& operator<<(std::ostream& os, const Piece& p);
 };
 
 #endif
