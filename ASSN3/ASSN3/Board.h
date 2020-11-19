@@ -2,6 +2,7 @@
 #define BOARD
 
 #include <iostream>
+#include <typeinfo>
 #include "EnumStruct.h"
 #include "Piece.h"
 #include "PieceArray.h"

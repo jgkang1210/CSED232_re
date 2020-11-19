@@ -52,17 +52,14 @@ void PieceArray::PushPiece(Piece* piece)
 	}
 	// bishop
 	else if (typeid(*piece) == typeid(Bishop)) {
-		Player player;
 		arr[length] = new Bishop(piece->GetPlayer(), piece->GetPosition());
 	}
 	// rook
 	else if (typeid(*piece) == typeid(Rook)) {
-		Player player;
 		arr[length] = new Rook(piece->GetPlayer(), piece->GetPosition());
 	}
 	// king
 	else if (typeid(*piece) == typeid(King)) {
-		Player player;
 		arr[length] = new King(piece->GetPlayer(), piece->GetPosition());
 	}
 

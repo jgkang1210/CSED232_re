@@ -85,7 +85,6 @@ bool Pawn::CanMoveTo(const Direction& dir) const
 			else return false;
 		}
 	}
-	
 }
 
 // print the pawn
