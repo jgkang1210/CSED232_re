@@ -2,6 +2,7 @@
 #define SQAURE
 
 #include <iostream>
+#include <typeinfo>
 #include "EnumStruct.h"
 #include "Piece.h"
 #include "Pawn.h"

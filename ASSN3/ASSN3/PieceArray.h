@@ -1,6 +1,7 @@
 #ifndef PIECEARRAY
 #define PIECEARRAY
 
+#include <typeinfo>
 #include "EnumStruct.h"
 #include "Piece.h"
 #include "Pawn.h"

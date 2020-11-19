@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <string>
+#include <typeinfo>
 #include <limits>
 #include "EnumStruct.h"
 #include "Piece.h"
