@@ -16,6 +16,9 @@ public:
 	Position GetPosition() const;
 	virtual void SetPosition(const Position& pos_);
 
+	// Virtual function --> ! only for pawn !
+	virtual bool PawnIsPromoted() const;
+
 	// Pure virtual function
 	virtual bool CanMoveTo(const Direction& dir) const = 0;
 	virtual void PrintLabel(std::ostream& os) const = 0;

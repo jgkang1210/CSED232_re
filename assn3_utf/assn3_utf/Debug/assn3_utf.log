@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\assn3_utf\assn3_utf\Source.cpp(3,9): warning C4068: unknown pragma 'execution_character_Set'
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\assn3_utf\assn3_utf\Source.cpp(7,15): warning C4566: character represented by universal-character-name '\uD55C' cannot be represented in the current code page (1252)
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\assn3_utf\assn3_utf\Source.cpp(7,15): warning C4566: character represented by universal-character-name '\uAE00' cannot be represented in the current code page (1252)
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\assn3_utf\assn3_utf\Source.cpp(7,27): warning C4566: character represented by universal-character-name '\u0159' cannot be represented in the current code page (1252)
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\assn3_utf\assn3_utf\Source.cpp(7,27): warning C4566: character represented by universal-character-name '\u011B' cannot be represented in the current code page (1252)
+  assn3_utf.vcxproj -> C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\assn3_utf\Debug\assn3_utf.exe

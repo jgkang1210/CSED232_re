@@ -26,9 +26,14 @@ void Piece::SetPosition(const Position& pos_)
 	this -> pos = pos_;
 }
 
+bool Piece::PawnIsPromoted() const
+{
+	std::cout << "only use for pawn" << std::endl;
+	return false;
+}
+
 std::ostream& operator<<(std::ostream& os, const Piece& p)
 {
 	p.PrintLabel(os);
 	return os;
-	// TODO: insert return statement here
 }

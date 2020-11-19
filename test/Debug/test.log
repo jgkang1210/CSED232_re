@@ -1,0 +1,4 @@
+﻿  한글Source.cpp
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\test\한글Source.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\test\Debug\test.exe : fatal error LNK1120: 1 unresolved externals

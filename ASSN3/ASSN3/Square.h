@@ -4,6 +4,10 @@
 #include <iostream>
 #include "EnumStruct.h"
 #include "Piece.h"
+#include "Pawn.h"
+#include "Bishop.h"
+#include "Rook.h"
+#include "King.h"
 
 class Square
 {

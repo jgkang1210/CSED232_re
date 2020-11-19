@@ -3,11 +3,15 @@
 
 #include "EnumStruct.h"
 #include "Piece.h"
+#include "Pawn.h"
+#include "Bishop.h"
+#include "Rook.h"
+#include "King.h"
 
 class PieceArray
 {
 private:
-	int length = 4;
+	int length;
 	int maxLength;
 	Piece** arr;
 public:
@@ -24,6 +28,9 @@ public:
 	Piece* GetPieceAt(const int& index) const;
 	void PushPiece(Piece* piece);
 	Piece* PopPieceAt(const int& index);
+
+	// friend function
+	friend std::ostream& operator<<(std::ostream& os, const PieceArray& pa);
 };
 
 #endif
