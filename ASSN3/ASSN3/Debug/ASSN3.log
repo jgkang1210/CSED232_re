@@ -1,12 +1,1 @@
-﻿  assn3.cpp
-  Bishop.cpp
-  Board.cpp
-  King.cpp
-  Pawn.cpp
-  Piece.cpp
-  PieceArray.cpp
-  Rook.cpp
-  Square.cpp
-  Generating Code...
-C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN3\ASSN3\Pawn.cpp(88): warning C4715: 'Pawn::CanMoveTo': not all control paths return a value
-  ASSN3.vcxproj -> C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN3\Debug\ASSN3.exe
+﻿  ASSN3.vcxproj -> C:\Users\JungillKang\Documents\GitHub\CSED232_re\CSED232_re\ASSN3\Debug\ASSN3.exe
