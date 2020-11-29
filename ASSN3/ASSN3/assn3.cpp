@@ -20,9 +20,6 @@ int main() {
 
 	Board GameBoard;
 
-	// starting player --> player_left
-	Player player = Player::PLAYER_LEFT;
-
 	while (1) {
 		// initial board & player's piece printing
 		std::cout << GameBoard << std::endl;
