@@ -1,0 +1,18 @@
+﻿  Pokedex.cpp
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(30,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(58,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(68,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(76,43): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(91,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(112,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(123,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(131,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(148,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(169,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(181,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(191,49): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\Pokedex.cpp(213,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Pokemon.cpp
+  assn4_stl.cpp
+  Generating Code...
+  ASSN4.vcxproj -> C:\Users\KangJungill\source\repos\assn1\CSED232_re\ASSN4\x64\Debug\ASSN4.exe

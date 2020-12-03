@@ -129,7 +129,9 @@ int main() {
 		database.capturePokemon(&pikachu);
 		database.capturePokemon(&mewtwo);
 	}
+	std::cout << "---------Pokemon List---------" << std::endl;
 	database.printByDefaullt();
+	std::cout << "---------Pokemon List---------" << std::endl;
 
 	// 2. Game starts
 	while (1) {
