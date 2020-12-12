@@ -164,7 +164,7 @@ void Pokedex::printById() const
 	}
 
 	// print the print_list
-	std::cout << "Order by Name" << std::endl;
+	std::cout << "Order by ID" << std::endl;
 	std::cout << "-----------------" << std::endl;
 	int print_list_size = print_list.size();
 	for (int i = 0; i < print_list_size; i++) {
@@ -175,7 +175,7 @@ void Pokedex::printById() const
 }
 
 // Search and print the list
-void Pokedex::printBySearch(const std::string& name)
+void Pokedex::printBySearch(const std::string& name) const
 {
 	// Search the pokemon
 	int length = pokedex.size();

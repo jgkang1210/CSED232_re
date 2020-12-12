@@ -6,34 +6,6 @@
 
 // Creative IT Eng, 20190348, JungillKang
 
-// Pomemon list
-//
-//1. Bulbasaur, 이상해씨
-//2. Ivysaur, 이상해풀
-//3. Venusaur, 이상해꽃
-//4. Charmander, 파이리
-//5. Charmeleon, 리자드
-//6. Charizard, 리자몽
-//7. Squirtle, 꼬부기
-//8. Wartortle, 어니부기
-//9. Blastoise, 거북왕
-//10. Caterpie, 캐터피
-//11. Metapod, 단데기
-//12. Butterfree, 버터플
-//13. Weedle, 뿔충이
-//14. Kakuna, 딱충이
-//15. Beedrill, 독침붕
-//16. Pidgey, 구구
-//17. Pidgeotto, 피죤
-//18. Pidgeot, 피죤투
-//19. Rattata, 꼬렛
-//20. Raticate, 레트라
-//21. Spearow, 깨비참
-//22. Fearow, 깨비드릴조
-//23. Ekans, 아보
-//24. Arbok, 아보크
-//25. Pikachu, 피카츄
-//150. Mewtwo, 뮤츠
 
 void catchPokemon(const Pokedex& database, Pokedex& userdex);
 void watchPokeDex(const Pokedex& database, Pokedex& userdex);
@@ -47,59 +19,32 @@ int main() {
 	Pokedex database;
 	Pokedex userdex;
 
-	// 가독성을 위해 접으려고 괄호를 쳤다.
 	{
-		//1. Bulbasaur, 이상해씨
 		Pokemon bulbasaur("bulbasaur", 1, 100);
-		//2. Ivysaur, 이상해풀
 		Pokemon ivysaur("ivysaur", 2, 90);
-		//3. Venusaur, 이상해꽃
 		Pokemon venusaur("venusaur", 3, 80);
-		//4. Charmander, 파이리
 		Pokemon charmander("charmander", 4, 100);
-		//5. Charmeleon, 리자드
 		Pokemon charmeleon("charmeleon", 5, 90);
-		//6. Charizard, 리자몽
 		Pokemon charizard("charizard", 6, 80);
-		//7. Squirtle, 꼬부기
 		Pokemon squirtle("squirtle", 7, 100);
-		//8. Wartortle, 어니부기
 		Pokemon wartortle("wartortle", 8, 90);
-		//9. Blastoise, 거북왕
 		Pokemon blastoise("blastoise", 9, 80);
-		//10. Caterpie, 캐터피
 		Pokemon caterpie("caterpie", 10, 100);
-		//11. Metapod, 단데기
 		Pokemon metapod("metapod", 11, 90);
-		//12. Butterfree, 버터플
 		Pokemon butterfree("butterfree", 12, 80);
-		//13. Weedle, 뿔충이
 		Pokemon weedle("weedle", 13, 100);
-		//14. Kakuna, 딱충이
 		Pokemon kakuna("kakuna", 14, 90);
-		//15. Beedrill, 독침붕
 		Pokemon beedrill("beedrill", 15, 80);
-		//16. Pidgey, 구구
 		Pokemon pidgey("pidgey", 16, 100);
-		//17. Pidgeotto, 피죤
 		Pokemon pidgeotto("pidgeotto", 17, 90);
-		//18. Pidgeot, 피죤투
 		Pokemon pidgeot("pidgeot", 18, 80);
-		//19. Rattata, 꼬렛
 		Pokemon rattata("rattata", 19, 100);
-		//20. Raticate, 레트라
 		Pokemon raticate("raticate", 20, 90);
-		//21. Spearow, 깨비참
 		Pokemon spearow("spearow", 21, 100);
-		//22. Fearow, 깨비드릴조
 		Pokemon fearow("fearow", 22, 90);
-		//23. Ekans, 아보
 		Pokemon ekans("ekans", 23, 100);
-		//24. Arbok, 아보크
 		Pokemon arbok("arbok", 24, 90);
-		//25. Pikachu, 피카츄
 		Pokemon pikachu("pikachu", 25, 70);
-		//150. Mewtwo, 뮤츠
 		Pokemon mewtwo("mewtwo", 150, 20);
 
 		database.capturePokemon(&bulbasaur);
@@ -289,7 +234,7 @@ void watchPokeDex(const Pokedex& database, Pokedex& userdex) {
 		// Wrong input
 		else {
 			std::cout << "Wrong input" << std::endl;
-			std::cout << "Please give number between 1 ~ 3" << std::endl;
+			std::cout << "Please give number between 1 ~ 5" << std::endl;
 			std::cin.clear();
 			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 		}

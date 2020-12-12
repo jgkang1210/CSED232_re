@@ -23,7 +23,7 @@ public:
 	void printByDefaullt() const;
 	void printByName() const;
 	void printById() const;
-	void printBySearch(const std::string& name);
+	void printBySearch(const std::string& name) const;
 };
 
 #endif // !POKEDEXS

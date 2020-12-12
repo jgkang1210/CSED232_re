@@ -1,7 +1,6 @@
 #ifndef POKEVECTOR
 #define POKEVECTOR
 
-#include <typeinfo>
 #include "Pokemon.h"
 
 template <typename T>
@@ -24,8 +23,6 @@ public:
 	void push_back(T obj);
 	void erase(const int& index);
 	void plus(const int& index);
-
-	// operator function
 };
 
 // initial length = 0, capacity = 10
@@ -59,50 +56,6 @@ template<typename T>
 inline T Pokevector<T>::at(const int& index) const
 {
 	return arr[index];
-}
-
-template<>
-inline void Pokevector<Pokemon*>::push_back(Pokemon* obj)
-{
-	if (length == maxLength) {
-		// assign new memory
-		maxLength += 10;
-		// make temp
-		Pokemon** temp = new Pokemon*[maxLength];
-		for (int i = 0; i < length; i++) {
-			temp[i] = arr[i];
-		}
-		// Delete the original arr, not delete the data.
-		arr = nullptr;
-		// re assign
-		arr = temp;
-	}
-
-	arr[length] = new Pokemon(obj->get_name(), obj->get_index(), obj->get_capture_rate());
-
-
-	length++;
-}
-
-template<>
-inline void Pokevector<Pokemon>::push_back(Pokemon obj)
-{
-	if (length == maxLength) {
-		// assign new memory
-		maxLength += 10;
-		// make temp
-		Pokemon* temp = new Pokemon[maxLength];
-		for (int i = 0; i < length; i++) {
-			temp[i] = arr[i];
-		}
-		// Delete the original arr, not delete the data.
-		arr = nullptr;
-		// re assign
-		arr = temp;
-	}
-
-	arr[length] = Pokemon(obj.get_name(), obj.get_index(), obj.get_capture_rate());
-	length++;
 }
 
 template<typename T>
